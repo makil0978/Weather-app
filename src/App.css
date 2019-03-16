@@ -1,0 +1,96 @@
+.App input, .App button
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px 20px;
+    border-top: 0px ;
+    border-bottom: 0px ;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color: white;
+    transition: .3s;
+    background: rgba(0, 0,0,0)
+}
+.App button {
+    border:0px;
+    cursor: pointer;
+    padding: 0px;
+    background: rgba(0, 0,0,0)
+}
+
+body
+{
+    border: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.dluga
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.long{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.n01d,.n02d
+{
+    background-image:url(http://www.egrafik.pl/dzialy/photoshop/tutoriale/tekstury/graf1/obr1.gif);
+    border-radius: 20px;
+    color:black;
+}
+.n01n,.n02n
+{
+    background-image:url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg);
+    border-radius: 20px;
+    color: white;
+}
+.n03d,.n04d
+{
+    background-image:url(https://i.pinimg.com/originals/32/4a/4d/324a4d458fa3f76cbb4ee100109ef51e.png);
+    border-radius: 20px;
+    color:black;
+}
+.n09d,.n10d,.n11d,.n09n,.n10n,.n11n
+{
+    background-image:url(https://st2.depositphotos.com/2403851/11441/i/950/depositphotos_114412194-stock-photo-rain-on-glass-background-texture.jpg);
+    border-radius: 20px;
+    color:black;
+}
+.n13d
+{
+    background-image:url(https://st.depositphotos.com/1035451/1439/v/950/depositphotos_14396709-stock-illustration-snow-fall-winter-background.jpg);
+    border-radius: 20px;
+    color:black;
+}
+.n03n,.n04n
+{
+    background-image:url(https://images3.alphacoders.com/180/180285.jpg);
+    border-radius: 20px;
+    color:white;
+}
+.n13n
+{
+    background-image:url(https://scontent-sea1-1.cdninstagram.com/vp/24eb4450aed1dadf4b83b4bcf3a62cd8/5CB05692/t51.2885-15/sh0.08/e35/s750x750/45488134_363404977751126_3886767571543561569_n.jpg?ig_cache_key=MTkyNTYzMDY1NTYyNDcxODE4Ng%3D%3D.2);
+    border-radius: 20px;
+    color:white;
+}
+.n50n,.n50d
+{
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/23/41/795834360755a91.jpg);
+    border-radius: 20px;
+    color:black;
+}
+.arrow
+{
+    margin: 5px;
+    filter: brightness(0%);
+}
